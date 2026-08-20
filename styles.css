@@ -1,0 +1,23 @@
+h1{
+    background-color: lightblue;
+    color: rgb(16, 148, 43);
+    border: 2px solid black;
+}
+
+body{
+    background-color: lightyellow;
+    
+}
+
+h2{
+    background-color: rgb(226, 125, 222);
+    color: rgb(19, 52, 160);
+    backface-visibility: hidden;
+}
+
+p{
+    background-color: rgb(173, 242, 157);
+    color: rgb(207, 91, 14);
+    text-align: center;
+    text-decoration: underline;
+}
