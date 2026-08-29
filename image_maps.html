@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--The HTML <map> tag defines an image map-->
+
+    <img src="https://www.w3schools.com/html/workplace.jpg" alt="Workplace" usemap="#workmap">
+    <!--The usemap="#workmap" attribute connects this image to a <map> element with name="workmap".-->
+
+    <!--Maps defines the container for the clickable areas.-->
+
+    <map name="workmap">
+     <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+     <!--Each <area> defines one clickable zone within the image:-->
+
+     <!--Coordinates = x1,y1,x2,y2 → top-left corner (290,172) to bottom-right corner (333,250). Clicking anywhere in this rectangle-->
+     <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+
+     <!--Coordinates = x1,y1,x2,y2 → center (337,300) with radius 44. Clicking anywhere within this circle-->
+
+     <area shape="circle" coords="337,300,44"  alt="Coffee" href="coffee.htm">
+    </map>
+
+    <!--isme we have to use relative link pr maine first vali link absolute rakhi h: google se nikal ke-->
+
+</body>
+</html>
